@@ -47,3 +47,9 @@ jobs:
 
     - name: Coverage
       run: php bin/phpunit --coverage-clover=coverage.xml
+    
+    - name: Codecov
+      uses: codecov/codecov-action@v1.2.1
+      with:
+        token: 20d546c5-5889-4265-b484-6495464f58ad
+      
