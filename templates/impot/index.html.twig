@@ -8,7 +8,7 @@
 
     {% if impot and impot.montantImpot is defined %}
         <div>
-            <p>Montant impot <span id="montantImpot">{{ impot.montantImpot }}</span></p>
+            <p>Impot amount <span id="montantImpot">{{ impot.montantImpot }}</span></p>
         </div>
         <ul>
             {% for index, item in impot.impotParTranche %}
