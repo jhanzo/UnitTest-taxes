@@ -1,7 +1,7 @@
 {
     "type": "project",
     "name": "unittest-taxes/project",
-    "description": "A project for testing unit test with PHP",
+    "description": "A project for testing CI with PHP",
     "license": "proprietary",
     "minimum-stability": "dev",
     "prefer-stable": true,
